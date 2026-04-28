@@ -35,12 +35,11 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 | `v` | Begin selection |
 | `y` | Copy selection |
 
-> Enter copy mode (`Ctrl+b [`)
-> Move with `h j k l`
-> `v` → select
-> `y` → yank (copy) and quit
-> `q` → exit copy mode
-
+- Enter copy mode (`Ctrl+b [`)
+- Move with `h j k l`
+- `v` → select
+- `y` → yank (copy) and quit
+- `q` → exit copy mode
 
 # iTerm
 
