@@ -1,4 +1,3 @@
-export ZSH="/Users/eduardo/.oh-my-zsh"
-
-source $ZSH/oh-my-zsh.sh
-
+export EDU_DOTFILES="/Users/eduardo/projects/dotfiles"
+export EDITOR="nvim"
+source $EDU_DOTFILES/bash/tmux

@@ -2,6 +2,46 @@
 
 Custom configuration for my dev env, includes zsh and iTerm configs.
 
+# tmux keymap
+
+## Prefix
+| Key | Action |
+|-----|--------|
+| `C-Space` | Primary prefix (default) |
+| `C-b` | Secondary prefix |
+
+## General
+| Key | Action |
+|-----|--------|
+| `q` | Reload config |
+
+## Pane Controls
+| Key | Action |
+|-----|--------|
+| `h` | Split pane vertically |
+| `v` | Split pane horizontally |
+| `x` | Kill current pane |
+
+## Window Controls
+| Key | Action |
+|-----|--------|
+| `c` | New window |
+| `r` | Rename window |
+| `k` | Kill window |
+
+## Copy Mode (Vi)
+| Key | Action |
+|-----|--------|
+| `v` | Begin selection |
+| `y` | Copy selection |
+
+> Enter copy mode (`Ctrl+b [`)
+> Move with `h j k l`
+> `v` → select
+> `y` → yank (copy) and quit
+> `q` → exit copy mode
+
+
 # iTerm
 
 ![iTerm_1](screenshots/iterm_1.png)
