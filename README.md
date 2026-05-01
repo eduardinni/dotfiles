@@ -19,11 +19,13 @@ echo '\nsource /Users/eduardo/projects/dotfiles/bash/zshrc' >> ~/.zshrc
 
 ```bash
 mkdir ~/.config/tmux
+```
 
+```bash
 ln -s $EDU_DOTFILES/tmux/tmux.conf ~/.config/tmux/tmux.conf
 ```
 
-# tmux keymap
+# tmux Keymap Reference
 
 ## Prefix
 | Key | Action |
