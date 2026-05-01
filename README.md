@@ -2,12 +2,33 @@
 
 Custom configuration for my dev env, includes zsh and iTerm configs.
 
+# Installation
+
+- Install Homebrew
+- `brew install neovim`
+- `brew install tmux`
+- `npm install -g @kitlangton/ghui`
+
+### zsh config
+
+```bash
+echo '\nsource /Users/eduardo/projects/dotfiles/bash/zshrc' >> ~/.zshrc
+```
+
+### tmux config
+
+```bash
+mkdir ~/.config/tmux
+
+ln -s $EDU_DOTFILES/tmux/tmux.conf ~/.config/tmux/tmux.conf
+```
+
 # tmux keymap
 
 ## Prefix
 | Key | Action |
 |-----|--------|
-| `C-Space` | Primary prefix (default) |
+| `C-s` | Primary prefix (default) |
 | `C-b` | Secondary prefix |
 
 ## General
