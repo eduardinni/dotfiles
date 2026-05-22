@@ -2,5 +2,5 @@
 export EDU_DOTFILES="/Users/eduardo/projects/dotfiles"
 export EDITOR="nvim"
 source $EDU_DOTFILES/bash/tmux
-
+alias ccd="claude"
 

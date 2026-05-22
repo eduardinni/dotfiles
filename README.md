@@ -5,9 +5,7 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 # Installation
 
 - Install Homebrew
-- `brew install neovim`
-- `brew install tmux`
-- `npm install -g @kitlangton/ghui`
+- `brew install neovim tmux ripgrep fzf`
 
 ### zsh config
 
@@ -18,11 +16,7 @@ echo '\nsource /Users/eduardo/projects/dotfiles/bash/zshrc' >> ~/.zshrc
 ### tmux config
 
 ```bash
-mkdir ~/.config/tmux
-```
-
-```bash
-ln -s $EDU_DOTFILES/tmux/tmux.conf ~/.config/tmux/tmux.conf
+mkdir ~/.config/tmux && ln -s $EDU_DOTFILES/tmux/tmux.conf ~/.config/tmux/tmux.conf
 ```
 
 # tmux Keymap Reference
