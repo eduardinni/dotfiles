@@ -13,6 +13,12 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 echo '\nsource /Users/eduardo/projects/dotfiles/bash/zshrc' >> ~/.zshrc
 ```
 
+### neovim config
+
+```bash
+ln -s $EDU_DOTFILES/nvim ~/.config/nvim
+```
+
 ### tmux config
 
 ```bash
