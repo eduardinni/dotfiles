@@ -1,6 +1,6 @@
-# eduardinni/dotfiles
-export EDU_DOTFILES="/Users/eduardo/projects/dotfiles"
+export EDU_DOTFILES="/Users/$EDU_LOCAL_USER/projects/dotfiles"
 export EDITOR="nvim"
-source $EDU_DOTFILES/bash/tmux
-alias ccd="claude"
 
+source $EDU_DOTFILES/bash/tmux
+
+alias ccd="claude"

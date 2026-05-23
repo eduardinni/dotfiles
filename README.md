@@ -6,11 +6,15 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 
 - Install Homebrew
 - `brew install neovim tmux ripgrep fzf`
+- `mkdir ~/projects`
 
 ### zsh config
 
+> IMPORTANT: Update the username in `EDU_LOCAL_USER`
+
 ```bash
-echo '\nsource /Users/eduardo/projects/dotfiles/bash/zshrc' >> ~/.zshrc
+echo '\nexport EDU_LOCAL_USER="eduardo"' >> ~/.zshrc && \
+echo '\nsource /Users/$EDU_LOCAL_USER/projects/dotfiles/bash/zshrc' >> ~/.zshrc
 ```
 
 ### neovim config
