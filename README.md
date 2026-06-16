@@ -5,7 +5,7 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 # Installation
 
 - Install Homebrew
-- `brew install neovim tmux ripgrep fzf`
+- `brew install neovim tmux ripgrep fzf chroma`
 - `mkdir ~/projects`
 
 ### zsh config
