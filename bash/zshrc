@@ -1,6 +1,9 @@
 export EDU_DOTFILES="/Users/$EDU_LOCAL_USER/projects/dotfiles"
 export EDITOR="nvim"
 
+# ohmyzsh
+plugins=(git history z zsh-syntax-highlighting zsh-autosuggestions zsh-completions colorize colored-man-pages aws autoupdate zsh-history-substring-search)
+
 source $EDU_DOTFILES/bash/tmux
 
 alias ccd="claude"
