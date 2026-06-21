@@ -4,29 +4,9 @@ Custom configuration for my dev env, includes zsh and iTerm configs.
 
 # Installation
 
-- Install Homebrew
-- `brew install neovim tmux ripgrep fzf chroma`
-- `mkdir ~/projects`
-
-### zsh config
-
-> IMPORTANT: Update the username in `EDU_LOCAL_USER`
-
 ```bash
-echo '\nexport EDU_LOCAL_USER="eduardo"' >> ~/.zshrc && \
-echo '\nsource /Users/$EDU_LOCAL_USER/projects/dotfiles/bash/zshrc' >> ~/.zshrc
-```
-
-### neovim config
-
-```bash
-ln -s $EDU_DOTFILES/nvim ~/.config/nvim
-```
-
-### tmux config
-
-```bash
-mkdir ~/.config/tmux && ln -s $EDU_DOTFILES/tmux/tmux.conf ~/.config/tmux/tmux.conf
+chmod +x install.sh
+./install.sh
 ```
 
 # tmux Keymap Reference
