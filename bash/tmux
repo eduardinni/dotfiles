@@ -39,8 +39,8 @@ tdl() {
   tmux select-pane -t "$editor_pane"
 }
 
-# Create a Tmux Dev Layout with editor, ai, and clojure nREPL
-# Usage: tdlc <claude|codex|other_ai> [<second_ai>]
+# Create a Tmux Dev Layout with editor, terminal and optional ai
+# Usage: tdlc [<claude|codex|other_ai>]
 tdlc() {
   [[ -z $TMUX ]] && { echo "You must start tmux to use tdlc."; return 1; }
 
@@ -67,8 +67,8 @@ tdlc() {
   # Run nvim in the left pane
   tmux send-keys -t "$editor_pane" "$EDITOR ." C-m
 
-  # Run clojure nREPL in the bottom pane
-  tmux send-keys -t "$term_pane" "lein repl" C-m
+  # Run custom command on terminal pane
+  # tmux send-keys -t "$term_pane" "lein repl" C-m
 
   # Select the nvim pane for focus
   tmux select-pane -t "$editor_pane"

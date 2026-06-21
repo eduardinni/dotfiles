@@ -7,3 +7,5 @@ plugins=(git history z zsh-syntax-highlighting zsh-autosuggestions zsh-completio
 source $EDU_DOTFILES/bash/tmux
 
 alias ccd="claude"
+alias xvim='tmux new-session \; send-keys "tdlc" Enter'
+alias xvimcc='tmux new-session \; send-keys "tdlc claude" Enter'
